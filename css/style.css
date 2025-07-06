@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.btn-outline-success {
+  --bs-btn-color: #0d6efd;
+  --bs-btn-border-color: #0d6efd;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #0d6efd;
+  --bs-btn-hover-border-color: #0d6efd;
+}
+
+.accordion-dark .accordion-item {
+  background-color: #212529;
+  border-color: #343a40;
+}
+
+.accordion-dark .accordion-button {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.accordion-dark .accordion-button:not(.collapsed) {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+.accordion-dark .accordion-body {
+  color: #fff;
+}
